@@ -16,9 +16,19 @@ This repo maintains package for Nix/NUR.
 nix profile install sourcehut:~paemuri/nix-pkgs#torresmo
 ```
 
+### TTFE
+
+> [homepage][3] | [repository][4]
+
+#### Installation
+
+```sh
+nix profile install sourcehut:~paemuri/nix-pkgs#ttfe
+```
+
 ## License
 
-This project code is in the public domain. See the [LICENSE file][3].
+This project code is in the public domain. See the [LICENSE file][5].
 
 ### Contribution
 
@@ -28,4 +38,6 @@ additional terms or conditions.
 
 [1]: https://sr.ht/~paemuri/torresmo
 [2]: https://git.sr.ht/~paemuri/torresmo
-[3]: ./LICENSE
+[3]: https://sr.ht/~paemuri/ttfe
+[4]: https://git.sr.ht/~paemuri/ttfe
+[5]: ./LICENSE
