@@ -8,7 +8,7 @@ This repo maintains package for Nix/NUR.
 
 ### Torresmo
 
-> [homepage][1] | [repository][2]
+> [homepage][1]
 
 #### Installation
 
@@ -18,7 +18,7 @@ nix profile install sourcehut:~paemuri/nix-pkgs#torresmo
 
 ### TTFE
 
-> [homepage][3] | [repository][4]
+> [homepage][2]
 
 #### Installation
 
@@ -26,18 +26,24 @@ nix profile install sourcehut:~paemuri/nix-pkgs#torresmo
 nix profile install sourcehut:~paemuri/nix-pkgs#ttfe
 ```
 
-## License
+## Source code
 
-This project code is in the public domain. See the [LICENSE file][5].
+The main repository is on [SourceHut][source-srht]. A mirror exists on
+[GitHub][source-github] for convenience, but it might occasionally be
+outdated.
 
-### Contribution
+### License and contribution
+
+This project's code is in the public domain. See the
+[LICENSE file][source-license].
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you shall be in the public domain, without any
 additional terms or conditions.
 
 [1]: https://sr.ht/~paemuri/torresmo
-[2]: https://git.sr.ht/~paemuri/torresmo
-[3]: https://sr.ht/~paemuri/ttfe
-[4]: https://git.sr.ht/~paemuri/ttfe
-[5]: ./LICENSE
+[2]: https://sr.ht/~paemuri/ttfe
+
+[source-srht]: https://git.sr.ht/~paemuri/nix-pkgs
+[source-github]: https://github.com/paemuri/nix-pkgs
+[source-license]: ./LICENSE
