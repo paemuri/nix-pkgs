@@ -2,7 +2,7 @@
 
 ## About
 
-This repo maintains package for Nix/NUR.
+This repo maintains packages for Nix.
 
 ## Packages
 
