@@ -6,14 +6,14 @@
 
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "torresmo";
-  version = "1.0.8";
+  version = "1.0.9";
 
   src = fetchCrate {
     inherit (finalAttrs) pname version;
-    hash = "sha256-W5d1d+I1uoVw7CDyvMyO8FDwjTTjEj90Fneect50CiE=";
+    hash = "sha256-7855wBmpCipJsfe7H5cipypraUQRqk4Ga+Wxx4o0UZo=";
   };
 
-  cargoHash = "sha256-Nl4ok7HIrb7j7+RaVBgv2TBDs/KmZ19AIrCAFNhdGJQ=";
+  cargoHash = "sha256-UxyXyDTKzTjJ/9t4MOGjaC+z3gBS0w639wStHHJI8sQ=";
 
   meta = {
     description = "Dead-simple and minimal TUI client for the Transmission daemon";
